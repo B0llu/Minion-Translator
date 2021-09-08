@@ -5,7 +5,7 @@
     padding: 0px;
 }
 
-.root {
+:root {
     --primary-colour: #FCD34D;
 }
 
@@ -30,7 +30,7 @@ textarea {
 
 h1 {
     text-align: center;
-    background-color: #FCD34D;
+    background-color: var(--primary-colour);
     border-bottom-left-radius: 4rem;
     border-bottom-right-radius: 4rem;
     padding: 2rem;
@@ -51,4 +51,12 @@ div {
     padding: 1rem;
     border-radius: 10rem;
     block-size: 6rem;
+}
+
+.primary-btn {
+    border-radius: 2rem;
+    border: 1px solid black;
+    text-align: center;
+    margin: 1rem;
+    padding: 1rem 1rem;
 }

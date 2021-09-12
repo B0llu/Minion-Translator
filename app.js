@@ -9,7 +9,7 @@ function getTranslationURL(text) {
 
 function errorHandler(error) {
     console.log("error occured", error)
-    alert("Sorry but at currunt stage this server is only available to use 5 times.")
+    alert("Sorry but at current stage this server is only available to use 5 times.")
 }
 
 function clickHandler() {
